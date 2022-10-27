@@ -1,0 +1,2 @@
+201-successful creation of post
+409-unsuccessful creation of post
