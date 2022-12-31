@@ -14,6 +14,7 @@ app.use(cors());
 app.use("/posts", postRoutes);
 app.use("/user", userRoutes);
 const URL = process.env.CONNECTION_URL;
+const URL2 = process.env.URL;
 const PORT = process.env.PORT || 5000;
 mongoose
   .connect(URL, { useNewUrlParser: true, useUnifiedTopology: true })
